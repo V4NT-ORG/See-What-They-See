@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Varela+Round);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+  background-color: #121212;
+  color: #121212;
+  font-family: Roboto;
+  text-align: center;
+  align-content: center;
+  vertical-align: middle;
+}
+
+break {
+  flex-basis: 100%;
+  width: 0px; 
+  height: 0px; 
+  overflow: hidden;
+}
+
+/* No Javascript Warning */
+  #noscript-warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    color: white;
+    background-color: red;
+  }
+
+#IP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  float: left;
+  width: 50%;
+  height: 150px;
+  background-color: #ffff71;
+  margin: 0;
+  padding: 10px 0 10px 0px;
+}
+
+#LOCATION {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  float: right;
+  width: 50%;
+  height: 150px;
+  background-color: #3bafda;
+  margin: 0;
+  padding: 10px 0px 10px 0;
+}
+
+  #find-me {
+    font-size: 1.5em;
+    text-decoration: underline;
+    padding: 10px;
+    color: #121212;
+    font-weight: bold;
+    background-color: #3bafda;
+    border: none;
+    min-width: 100%;
+  }
+
+#LANGUAGE {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 50%;
+  height: 150px;
+  background-color: #a0d468;
+  margin: 0;
+  padding: 10px 0 10px 0px;
+}
+
+#SCREEN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 50%;
+  height: 150px;
+  background-color: #ac92ec;
+  margin: 0;
+  padding: 10px 0px 10px 0;
+}
+
+#MOBILE {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 50%;
+  height: 150px;
+  background-color: #d770ad;
+  margin: 0;
+  padding: 10px 0 10px 0px;
+}
+
+#COOKIES {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 50%;
+  height: 150px;
+  background-color: #e9573f;
+  margin: 0;
+  padding: 10px 0px 10px 0;
+}
+
+#BROWSER {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 50%;
+  height: 150px;
+  background-color: #ffff71;
+  margin: 0;
+  padding: 10px 0 10px 0px;
+}
+
+#OS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 50%;
+  height: 150px;
+  background-color: #3bafda;
+  margin: 0;
+  padding: 10px 0px 10px 0;
+}
+
+#USERAGENT {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 50%;
+  height: 150px;
+  background-color: #a0d468;
+  margin: 0;
+  padding: 10px 0 10px 0px;
+}
+
+#SPEEDTEST {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 50%;
+  height: 150px;
+  background-color: #ac92ec;
+  margin: 0;
+  padding: 10px 0px 10px 0;
+}
