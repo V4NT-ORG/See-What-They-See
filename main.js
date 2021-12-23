@@ -362,7 +362,7 @@ function checkUserAgent() {
 // navigator.connection.downlink
 
 function checkSpeed() {
-    var imageAddr = "https://user-images.githubusercontent.com/28893833/61922983-db6bd600-af51-11e9-8486-949606a1497c.jpg";
+    var imageAddr = "https://raw.githubusercontent.com/IdleEndeavor/What-Is-My-IP-Address/master/img/image.jpg";
     var downloadSize = 15478214; //bytes
 
     function ShowProgressMessage(msg) {
