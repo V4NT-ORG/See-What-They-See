@@ -2,6 +2,7 @@
 
 ### Screenshots
 <img src="https://raw.githubusercontent.com/IdleEndeavor/Me-Online/master/img/desktop-preview.png" alt="Preview on Desktop"/>
-<img src="https://raw.githubusercontent.com/IdleEndeavor/Me-Online/master/img/Mobile-Preview-1.jpg" alt="On Mobile 2" width="200"/> <img src="https://raw.githubusercontent.com/IdleEndeavor/Me-Online/master/img/Mobile-Preview-2.jpg" alt="On Mobile 3" width="200"/>
+<img src="https://raw.githubusercontent.com/IdleEndeavor/Me-Online/master/img/Mobile-Preview-1.jpg" alt="On Mobile 2"> 
+<img src="https://raw.githubusercontent.com/IdleEndeavor/Me-Online/master/img/Mobile-Preview-2.jpg" alt="On Mobile 3">
 
 This Project was forked from [EsmailELBoBDev2/What-Is-My-IP-Address](https://github.com/EsmailELBoBDev2/What-Is-My-IP-Address)
