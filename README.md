@@ -1,4 +1,4 @@
-Me Online is a website that shows you what information you leak online and how websites see you. It uses WebRTC to fetch information such as your IP address, Browser, Screen Size etc. This ensures that your data is safe from being processed via Third-Party APIs or services and is only gathered from your device for display and storage only on your device.
+**Me Online** is a website that shows you what information you leak online and how websites see you. It uses WebRTC to fetch information such as your IP address, Browser, Screen Size etc. This ensures that your data is safe from being processed via Third-Party APIs or services and is only gathered from your device for display and storage only on your device.
 
 # Photos From The Porject
 ![On PC](https://user-images.githubusercontent.com/28893833/61818893-6a3cfd80-ae41-11e9-8eab-6553298db856.png)
