@@ -416,7 +416,6 @@ function checkSpeed() {
 }
 // ـــــــــــــــــــــــــــــــــــ
 
-// <*>RUN ALL OF THEM, BABY!<*> \\
 checkLang();
 checkScreen();
 checkMobile();

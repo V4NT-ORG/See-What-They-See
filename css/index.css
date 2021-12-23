@@ -10,13 +10,6 @@ html, body {
   vertical-align: middle;
 }
 
-break {
-  flex-basis: 100%;
-  width: 0px; 
-  height: 0px; 
-  overflow: hidden;
-}
-
 /* No Javascript Warning */
   #noscript-warning {
     position: fixed;
@@ -30,135 +23,301 @@ break {
     background-color: red;
   }
 
-#IP {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap;
-  float: left;
-  width: 50%;
-  height: 150px;
-  background-color: #ffff71;
-  margin: 0;
-  padding: 10px 0 10px 0px;
-}
-
-#LOCATION {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: wrap;
-  float: right;
-  width: 50%;
-  height: 150px;
-  background-color: #3bafda;
-  margin: 0;
-  padding: 10px 0px 10px 0;
-}
-
-  #find-me {
-    font-size: 1.5em;
-    text-decoration: underline;
-    padding: 10px;
-    color: #121212;
-    font-weight: bold;
-    background-color: #3bafda;
-    border: none;
-    min-width: 100%;
+/* Home */
+  #home {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #e9573f;
   }
 
-#LANGUAGE {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  width: 50%;
-  height: 150px;
-  background-color: #a0d468;
-  margin: 0;
-  padding: 10px 0 10px 0px;
-}
+  #home img {
+    margin: 20px;
+    width: 300px;
+    height: auto;
+  }
 
-#SCREEN {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: right;
-  width: 50%;
-  height: 150px;
-  background-color: #ac92ec;
-  margin: 0;
-  padding: 10px 0px 10px 0;
-}
+  #home button {
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ffff71;
+    border: none;
+  }
 
-#MOBILE {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  width: 50%;
-  height: 150px;
-  background-color: #d770ad;
-  margin: 0;
-  padding: 10px 0 10px 0px;
-}
+  #home a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #121212;
+  }
 
-#COOKIES {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: right;
-  width: 50%;
-  height: 150px;
-  background-color: #e9573f;
-  margin: 0;
-  padding: 10px 0px 10px 0;
-}
+  #home a:hover {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+  }
 
-#BROWSER {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  width: 50%;
-  height: 150px;
-  background-color: #ffff71;
-  margin: 0;
-  padding: 10px 0 10px 0px;
-}
+/* Fetched Data */
+  #IP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #ffff71;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
 
-#OS {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: right;
-  width: 50%;
-  height: 150px;
-  background-color: #3bafda;
-  margin: 0;
-  padding: 10px 0px 10px 0;
-}
+  #LOCATION {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    float: right;
+    width: 50%;
+    height: 150px;
+    background-color: #3bafda;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
 
-#USERAGENT {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  width: 50%;
-  height: 150px;
-  background-color: #a0d468;
-  margin: 0;
-  padding: 10px 0 10px 0px;
-}
+    #find-me {
+      font-size: 1.5em;
+      text-decoration: underline;
+      padding: 10px;
+      color: #121212;
+      font-weight: bold;
+      background-color: #3bafda;
+      border: none;
+      min-width: 100%;
+    }
 
-#SPEEDTEST {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: right;
-  width: 50%;
-  height: 150px;
-  background-color: #ac92ec;
-  margin: 0;
-  padding: 10px 0px 10px 0;
+  #LANGUAGE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #a0d468;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
+
+  #SCREEN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    height: 150px;
+    background-color: #ac92ec;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
+
+  #MOBILE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #d770ad;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
+
+  #COOKIES {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    height: 150px;
+    background-color: #e9573f;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
+
+  #BROWSER {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #3bafda;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
+
+  #OS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    height: 150px;
+    background-color: #ffff71;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
+
+  #USERAGENT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #ac92ec;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
+
+  #SPEEDTEST {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    height: 150px;
+    background-color: #a0d468;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
+
+@media (max-width: 600px) {
+  #IP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    background-color: #ffff71;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
+
+  #LOCATION {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #3bafda;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
+
+    #find-me {
+      font-size: 1.5em;
+      text-decoration: underline;
+      padding: 10px;
+      color: #121212;
+      font-weight: bold;
+      background-color: #3bafda;
+      border: none;
+      min-width: 100%;
+    }
+
+  #LANGUAGE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #a0d468;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
+
+  #SCREEN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #ac92ec;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
+
+  #MOBILE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #d770ad;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
+
+  #COOKIES {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #e9573f;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
+
+  #BROWSER {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #3bafda;
+    margin: 0;
+    padding: 10px 0 10px 0px;
+  }
+
+  #OS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #ffff71;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  }
+
+  #USERAGENT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #ac92ec;
+    padding: 10px 0 10px 0px;
+  }
+
+    #USERAGENT h2 {
+      padding: 10px;
+    }
+
+  #SPEEDTEST {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #a0d468;
+    margin: 0;
+    padding: 10px 0px 10px 0;
+  } 
 }
