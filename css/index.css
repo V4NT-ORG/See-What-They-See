@@ -66,12 +66,11 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
-    float: left;
-    width: 50%;
     height: 150px;
     background-color: #ffff71;
     margin: 0;
     padding: 10px 0 10px 0px;
+    border-bottom: solid 8px #e9573f;
   }
 
   #LOCATION {
@@ -79,12 +78,11 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
-    float: right;
-    width: 50%;
     height: 150px;
-    background-color: #3bafda;
+    background-color: #ffff71;
     margin: 0;
     padding: 10px 0px 10px 0;
+    border-bottom: solid 8px #e9573f;
   }
 
     #find-me {
@@ -93,7 +91,7 @@ html, body {
       padding: 10px;
       color: #121212;
       font-weight: bold;
-      background-color: #3bafda;
+      background-color: #ffff71;
       border: none;
       min-width: 100%;
     }
@@ -102,94 +100,85 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
-    width: 50%;
     height: 150px;
-    background-color: #a0d468;
+    background-color: #ffff71;
     margin: 0;
     padding: 10px 0 10px 0px;
+    border-bottom: solid 8px #e9573f;
   }
 
   #SCREEN {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: right;
-    width: 50%;
     height: 150px;
-    background-color: #ac92ec;
+    background-color: #ffff71;
     margin: 0;
     padding: 10px 0px 10px 0;
+    border-bottom: solid 8px #e9573f;
   }
 
   #MOBILE {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
-    width: 50%;
     height: 150px;
-    background-color: #d770ad;
+    background-color: #ffff71;
     margin: 0;
     padding: 10px 0 10px 0px;
+    border-bottom: solid 8px #e9573f;
   }
 
   #COOKIES {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: right;
-    width: 50%;
     height: 150px;
-    background-color: #e9573f;
+    background-color: #ffff71;
     margin: 0;
     padding: 10px 0px 10px 0;
+    border-bottom: solid 8px #e9573f;
   }
 
   #BROWSER {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
-    width: 50%;
     height: 150px;
-    background-color: #3bafda;
+    background-color: #ffff71;
     margin: 0;
     padding: 10px 0 10px 0px;
+    border-bottom: solid 8px #e9573f;
   }
 
   #OS {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: right;
-    width: 50%;
     height: 150px;
     background-color: #ffff71;
     margin: 0;
     padding: 10px 0px 10px 0;
+    border-bottom: solid 8px #e9573f;
   }
 
   #USERAGENT {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
-    width: 50%;
     height: 150px;
-    background-color: #ac92ec;
+    background-color: #ffff71;
     margin: 0;
     padding: 10px 0 10px 0px;
+    border-bottom: solid 8px #e9573f;
   }
 
   #SPEEDTEST {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: right;
-    width: 50%;
     height: 150px;
-    background-color: #a0d468;
+    background-color: #ffff71;
     margin: 0;
     padding: 10px 0px 10px 0;
   }
@@ -226,197 +215,26 @@ html, body {
     color: black;
   }
 
-@media (max-width: 600px) {
-  #home {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
+/* Scrollbar */
+  /* Works on Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #e9573f #ffff71;
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffff71;
+  }
+
+  *::-webkit-scrollbar-thumb {
     background-color: #e9573f;
+    border-radius: 20px;
+    border: 3px solid #ffff71;
   }
 
-  #home img {
-    margin: 20px;
-    width: 300px;
-    height: auto;
-  }
-
-  #home button {
-    font-size: 1.5em;
-    padding: 10px;
-    font-weight: bold;
-    background-color: #ffff71;
-    border: none;
-  }
-
-  #home a {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #121212;
-  }
-
-  #home a:hover {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: black;
-  }
-
-  #IP {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row wrap;
-    width: 100%;
-    height: auto;
-    background-color: #ffff71;
-    margin: 0;
-    padding: 10px 0 10px 0px;
-  }
-
-  #LOCATION {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: wrap;
-    width: 100%;
-    height: auto;
-    background-color: #3bafda;
-    margin: 0;
-    padding: 10px 0px 10px 0;
-  }
-
-    #find-me {
-      font-size: 1.5em;
-      text-decoration: underline;
-      padding: 10px;
-      color: #121212;
-      font-weight: bold;
-      background-color: #3bafda;
-      border: none;
-      min-width: 100%;
-    }
-
-  #LANGUAGE {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #a0d468;
-    margin: 0;
-    padding: 10px 0 10px 0px;
-  }
-
-  #SCREEN {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #ac92ec;
-    margin: 0;
-    padding: 10px 0px 10px 0;
-  }
-
-  #MOBILE {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #d770ad;
-    margin: 0;
-    padding: 10px 0 10px 0px;
-  }
-
-  #COOKIES {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #e9573f;
-    margin: 0;
-    padding: 10px 0px 10px 0;
-  }
-
-  #BROWSER {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #3bafda;
-    margin: 0;
-    padding: 10px 0 10px 0px;
-  }
-
-  #OS {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #ffff71;
-    margin: 0;
-    padding: 10px 0px 10px 0;
-  }
-
-  #USERAGENT {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #ac92ec;
-    padding: 10px 0 10px 0px;
-  }
-
-    #USERAGENT h2 {
-      padding: 10px;
-    }
-
-  #SPEEDTEST {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    background-color: #a0d468;
-    margin: 0;
-    padding: 10px 0px 10px 0;
-  } 
-
-  #footer {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    background-color: #e9573f;
-    padding: 25px;
-  }
-
-  #footer button {
-    font-size: 1.5em;
-    padding: 10px;
-    font-weight: bold;
-    background-color: #ffff71;
-    border: none;
-  }
-
-  #footer a {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #121212;
-  }
-
-  #footer a:hover {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: black;
-  }
 }
