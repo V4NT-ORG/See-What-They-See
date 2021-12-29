@@ -23,7 +23,7 @@ html, body {
     background-color: red;
   }
 
-/* Home */
+/* Startpage */
   #home {
     display: flex;
     flex-flow: column;
@@ -216,13 +216,12 @@ html, body {
   }
 
 /* Scrollbar */
-  /* Works on Firefox */
+  /* Firefox */
   * {
-    scrollbar-width: thin;
     scrollbar-color: #e9573f #ffff71;
   }
 
-  /* Works on Chrome, Edge, and Safari */
+  /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 15px;
   }
@@ -237,4 +236,65 @@ html, body {
     border: 3px solid #ffff71;
   }
 
+/* Recorder */
+  [data-role="controls"] > button {
+    margin: 50px auto;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    display: block;
+    border: none;
+    background-color: #ffff71;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 0px 5px #e9573f, 0px 0px 0px 30px #ffff71, 0px 0px 0px 35px #ffff71;
+            box-shadow: 0px 0px 0px 5px #e9573f, 0px 0px 0px 30px #ffff71, 0px 0px 0px 35px #ffff71;
+  }
+
+  [data-role="controls"] > button:hover {
+    background-color: #e9573f;
+  }
+
+  [data-role="controls"] > button[data-recording="true"] {
+    background-color: #ff2038;
+  }
+
+  [data-role="recordings"] > .row {
+    width: auto;
+    height: 54px;
+  }
+
+  audio::-webkit-media-controls-panel {
+    border-radius: 0px;
+    background-color: #ffff71;
+  }
+
+  [data-role="recordings"] > .row > audio {
+    outline: none;
+    background-color: #ffff71;
+    height: 54px;
+  }
+
+  [data-role="recordings"] > .row > a {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 50px;
+    vertical-align: top;
+    width: 50px;
+    height: 54px;
+    color: #121212;
+    font-weight: bold;
+    margin-left: 5px;
+    background-color: #ffff71;
+    cursor: pointer;
+  }
+
+  [data-role="recordings"] > .row > a:hover {
+    text-decoration: none;
+    font-size: 30px;
+  }
 }
