@@ -1,0 +1,3 @@
+https://api.countapi.xyz/create?namespace=meonline&key=meonline&value=0
+https://api.countapi.xyz/get/meonline/meonline
+https://api.countapi.xyz/update/meonline/meonline/?amount=1

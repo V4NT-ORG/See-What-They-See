@@ -94,8 +94,24 @@
 <!-- Footer -->
   <div id="footer">
     <button><a href="#home">▲ Go Back</a></button>
+    <div>
+      <h2 id="foundcounterno" class="count">0</h2>
+      <h2>Visits</h2>
+    </div>
     <h2>Created by IdleEndeavor<br><a href="https://github.com/IdleEndeavor/Me-Online">View on GitHub</a></h2>
   </div>
+
+  <script type="text/javascript">
+		function updateCounter() {
+		    fetch('https://api.countapi.xyz/update/meonline/meonline/?amount=1')
+		        .then(res => res.json())
+		        .then(data => counterElement.innerHTML = data.value)
+		}
+
+		updateCounter()
+
+		counterElement = document.getElementsByClassName('count')[0];
+	</script>
 </body>
 
 </html>
